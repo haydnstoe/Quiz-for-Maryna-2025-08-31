@@ -12,7 +12,7 @@
     h1 {
       text-align: center;
     }
-    #questions-container .question {
+    .question {
       margin-bottom: 1.5rem;
       padding: 1rem;
       border: 1px solid #ddd;
@@ -47,222 +47,217 @@
 <body>
   <h1>Maryna  2025-08-31</h1>
   <form id="quiz-form">
-    <div id="questions-container">
-      <!-- Each question's text is in .q-text; numbering and input names will be assigned in script -->
-      
-      <!-- Phrasal Verbs -->
-      <div class="question">
-        <p><span class="q-text">What does “pore over” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> to casually glance at</label></li>
-          <li><label><input type="radio" data-correct="true"> to examine carefully</label></li>
-          <li><label><input type="radio" data-correct="false"> to finish quickly</label></li>
-          <li><label><input type="radio" data-correct="false"> to ignore completely</label></li>
-        </ul>
-      </div>
+    <!-- Phrasal Verbs -->
+    <div class="question">
+      <p>1. What does “pore over” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q1" data-correct="false"> to casually glance at</label></li>
+        <li><label><input type="radio" name="q1" data-correct="true"> to examine carefully</label></li>
+        <li><label><input type="radio" name="q1" data-correct="false"> to finish quickly</label></li>
+        <li><label><input type="radio" name="q1" data-correct="false"> to ignore completely</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “drum up” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> gloss over</label></li>
-          <li><label><input type="radio" data-correct="false"> mull over</label></li>
-          <li><label><input type="radio" data-correct="true"> to generate support or interest</label></li>
-          <li><label><input type="radio" data-correct="false"> to ratchet up</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>2. What does “drum up” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q2" data-correct="false"> gloss over</label></li>
+        <li><label><input type="radio" name="q2" data-correct="false"> mull over</label></li>
+        <li><label><input type="radio" name="q2" data-correct="true"> to generate support or interest</label></li>
+        <li><label><input type="radio" name="q2" data-correct="false"> to ratchet up</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “gloss over” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> to emphasize faults</label></li>
-          <li><label><input type="radio" data-correct="true"> to minimize or cover up</label></li>
-          <li><label><input type="radio" data-correct="false"> to polish surfaces</label></li>
-          <li><label><input type="radio" data-correct="false"> to abruptly stop</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>3. What does “gloss over” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q3" data-correct="false"> to emphasize faults</label></li>
+        <li><label><input type="radio" name="q3" data-correct="true"> to minimize or cover up</label></li>
+        <li><label><input type="radio" name="q3" data-correct="false"> to polish surfaces</label></li>
+        <li><label><input type="radio" name="q3" data-correct="false"> to abruptly stop</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “mull over” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="true"> to think carefully about</label></li>
-          <li><label><input type="radio" data-correct="false"> to completely reject</label></li>
-          <li><label><input type="radio" data-correct="false"> to finish quickly</label></li>
-          <li><label><input type="radio" data-correct="false"> to set aside</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>4. What does “mull over” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q4" data-correct="true"> to think carefully about</label></li>
+        <li><label><input type="radio" name="q4" data-correct="false"> to completely reject</label></li>
+        <li><label><input type="radio" name="q4" data-correct="false"> to finish quickly</label></li>
+        <li><label><input type="radio" name="q4" data-correct="false"> to set aside</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “cotton on” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="true"> to suddenly realize</label></li>
-          <li><label><input type="radio" data-correct="false"> to make comfortable</label></li>
-          <li><label><input type="radio" data-correct="false"> to remove cotton</label></li>
-          <li><label><input type="radio" data-correct="false"> to argue</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>5. What does “cotton on” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q5" data-correct="true"> to suddenly realize</label></li>
+        <li><label><input type="radio" name="q5" data-correct="false"> to make comfortable</label></li>
+        <li><label><input type="radio" name="q5" data-correct="false"> to remove cotton</label></li>
+        <li><label><input type="radio" name="q5" data-correct="false"> to argue</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “eke out” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> to waste resources</label></li>
-          <li><label><input type="radio" data-correct="false"> to produce abundantly</label></li>
-          <li><label><input type="radio" data-correct="true"> to make a supply last longer</label></li>
-          <li><label><input type="radio" data-correct="false"> to increase rapidly</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>6. What does “eke out” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q6" data-correct="false"> to waste resources</label></li>
+        <li><label><input type="radio" name="q6" data-correct="false"> to produce abundantly</label></li>
+        <li><label><input type="radio" name="q6" data-correct="true"> to make a supply last longer</label></li>
+        <li><label><input type="radio" name="q6" data-correct="false"> to increase rapidly</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “ratchet up” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> to decrease gradually</label></li>
-          <li><label><input type="radio" data-correct="true"> to increase or intensify</label></li>
-          <li><label><input type="radio" data-correct="false"> to repair machinery</label></li>
-          <li><label><input type="radio" data-correct="false"> to stall progress</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>7. What does “ratchet up” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q7" data-correct="false"> to decrease gradually</label></li>
+        <li><label><input type="radio" name="q7" data-correct="true"> to increase or intensify</label></li>
+        <li><label><input type="radio" name="q7" data-correct="false"> to repair machinery</label></li>
+        <li><label><input type="radio" name="q7" data-correct="false"> to stall progress</label></li>
+      </ul>
+    </div>
 
-      <!-- Idiomatic Expressions -->
-      <div class="question">
-        <p><span class="q-text">What does “a dime a dozen” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> very rare</label></li>
-          <li><label><input type="radio" data-correct="false"> extremely expensive</label></li>
-          <li><label><input type="radio" data-correct="true"> very common</label></li>
-          <li><label><input type="radio" data-correct="false"> worthless item</label></li>
-        </ul>
-      </div>
+    <!-- Idiomatic Expressions -->
+    <div class="question">
+      <p>8. What does “a dime a dozen” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q8" data-correct="false"> very rare</label></li>
+        <li><label><input type="radio" name="q8" data-correct="false"> extremely expensive</label></li>
+        <li><label><input type="radio" name="q8" data-correct="true"> very common</label></li>
+        <li><label><input type="radio" name="q8" data-correct="false"> worthless item</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “bite the bullet” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> complain loudly</label></li>
-          <li><label><input type="radio" data-correct="true"> endure a painful situation</label></li>
-          <li><label><input type="radio" data-correct="false"> avoid responsibility</label></li>
-          <li><label><input type="radio" data-correct="false"> start afresh</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>9. What does “bite the bullet” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q9" data-correct="false"> complain loudly</label></li>
+        <li><label><input type="radio" name="q9" data-correct="true"> endure a painful situation</label></li>
+        <li><label><input type="radio" name="q9" data-correct="false"> avoid responsibility</label></li>
+        <li><label><input type="radio" name="q9" data-correct="false"> start afresh</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “the ball is in your court” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="true"> it's your responsibility or decision</label></li>
-          <li><label><input type="radio" data-correct="false"> it's someone else's turn</label></li>
-          <li><label><input type="radio" data-correct="false"> you're out of time</label></li>
-          <li><label><input type="radio" data-correct="false"> the game has ended</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>10. What does “the ball is in your court” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q10" data-correct="true"> it's your responsibility or decision</label></li>
+        <li><label><input type="radio" name="q10" data-correct="false"> it's someone else's turn</label></li>
+        <li><label><input type="radio" name="q10" data-correct="false"> you're out of time</label></li>
+        <li><label><input type="radio" name="q10" data-correct="false"> the game has ended</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “spill the beans” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> cook dinner</label></li>
-          <li><label><input type="radio" data-correct="true"> reveal a secret</label></li>
-          <li><label><input type="radio" data-correct="false"> create a mess</label></li>
-          <li><label><input type="radio" data-correct="false"> avoid giving details</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>11. What does “spill the beans” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q11" data-correct="false"> cook dinner</label></li>
+        <li><label><input type="radio" name="q11" data-correct="true"> reveal a secret</label></li>
+        <li><label><input type="radio" name="q11" data-correct="false"> create a mess</label></li>
+        <li><label><input type="radio" name="q11" data-correct="false"> avoid giving details</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “hit the nail on the head” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> perform a mistake</label></li>
-          <li><label><input type="radio" data-correct="true"> describe something exactly</label></li>
-          <li><label><input type="radio" data-correct="false"> work with nails</label></li>
-          <li><label><input type="radio" data-correct="false"> exaggerate facts</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>12. What does “hit the nail on the head” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q12" data-correct="false"> perform a mistake</label></li>
+        <li><label><input type="radio" name="q12" data-correct="true"> describe something exactly</label></li>
+        <li><label><input type="radio" name="q12" data-correct="false"> work with nails</label></li>
+        <li><label><input type="radio" name="q12" data-correct="false"> exaggerate facts</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “out of the blue” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> with little explanation</label></li>
-          <li><label><input type="radio" data-correct="true"> unexpectedly</label></li>
-          <li><label><input type="radio" data-correct="false"> in a sad mood</label></li>
-          <li><label><input type="radio" data-correct="false"> with hesitation</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>13. What does “out of the blue” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q13" data-correct="false"> with little explanation</label></li>
+        <li><label><input type="radio" name="q13" data-correct="true"> unexpectedly</label></li>
+        <li><label><input type="radio" name="q13" data-correct="false"> in a sad mood</label></li>
+        <li><label><input type="radio" name="q13" data-correct="false"> with hesitation</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “on the back burner” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> prioritized immediately</label></li>
-          <li><label><input type="radio" data-correct="true"> postponed until later</label></li>
-          <li><label><input type="radio" data-correct="false"> considered dangerous</label></li>
-          <li><label><input type="radio" data-correct="false"> forgotten permanently</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>14. What does “on the back burner” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q14" data-correct="false"> prioritized immediately</label></li>
+        <li><label><input type="radio" name="q14" data-correct="true"> postponed until later</label></li>
+        <li><label><input type="radio" name="q14" data-correct="false"> considered dangerous</label></li>
+        <li><label><input type="radio" name="q14" data-correct="false"> forgotten permanently</label></li>
+      </ul>
+    </div>
 
-      <!-- Advanced Vocabulary -->
-      <div class="question">
-        <p><span class="q-text">What does “obfuscate” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> to make clear</label></li>
-          <li><label><input type="radio" data-correct="true"> to confuse or make unclear</label></li>
-          <li><label><input type="radio" data-correct="false"> to simplify</label></li>
-          <li><label><input type="radio" data-correct="false"> to reveal</label></li>
-        </ul>
-      </div>
+    <!-- Advanced Vocabulary -->
+    <div class="question">
+      <p>15. What does “obfuscate” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q15" data-correct="false"> to make clear</label></li>
+        <li><label><input type="radio" name="q15" data-correct="true"> to confuse or make unclear</label></li>
+        <li><label><input type="radio" name="q15" data-correct="false"> to simplify</label></li>
+        <li><label><input type="radio" name="q15" data-correct="false"> to reveal</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “pernicious” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> harmless</label></li>
-          <li><label><input type="radio" data-correct="false"> beneficial</label></li>
-          <li><label><input type="radio" data-correct="true"> harmful or destructive</label></li>
-          <li><label><input type="radio" data-correct="false"> insignificant</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>16. What does “pernicious” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q16" data-correct="false"> harmless</label></li>
+        <li><label><input type="radio" name="q16" data-correct="false"> beneficial</label></li>
+        <li><label><input type="radio" name="q16" data-correct="true"> harmful or destructive</label></li>
+        <li><label><input type="radio" name="q16" data-correct="false"> insignificant</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “ubiquitous” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> rare</label></li>
-          <li><label><input type="radio" data-correct="true"> appearing everywhere</label></li>
-          <li><label><input type="radio" data-correct="false"> hidden</label></li>
-          <li><label><input type="radio" data-correct="false"> bitter</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>17. What does “ubiquitous” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q17" data-correct="false"> rare</label></li>
+        <li><label><input type="radio" name="q17" data-correct="true"> appearing everywhere</label></li>
+        <li><label><input type="radio" name="q17" data-correct="false"> hidden</label></li>
+        <li><label><input type="radio" name="q17" data-correct="false"> bitter</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “ameliorate” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> to worsen</label></li>
-          <li><label><input type="radio" data-correct="true"> to improve</label></li>
-          <li><label><input type="radio" data-correct="false"> to delete</label></li>
-          <li><label><input type="radio" data-correct="false"> to inspect</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>18. What does “ameliorate” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q18" data-correct="false"> to worsen</label></li>
+        <li><label><input type="radio" name="q18" data-correct="true"> to improve</label></li>
+        <li><label><input type="radio" name="q18" data-correct="false"> to delete</label></li>
+        <li><label><input type="radio" name="q18" data-correct="false"> to inspect</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “mendacious” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> truthful</label></li>
-          <li><label><input type="radio" data-correct="true"> lying or untruthful</label></li>
-          <li><label><input type="radio" data-correct="false"> complaining</label></li>
-          <li><label><input type="radio" data-correct="false"> hesitant</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>19. What does “mendacious” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q19" data-correct="false"> truthful</label></li>
+        <li><label><input type="radio" name="q19" data-correct="true"> lying or untruthful</label></li>
+        <li><label><input type="radio" name="q19" data-correct="false"> complaining</label></li>
+        <li><label><input type="radio" name="q19" data-correct="false"> hesitant</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “perspicacious” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> dull</label></li>
-          <li><label><input type="radio" data-correct="true"> insightful or shrewd</label></li>
-          <li><label><input type="radio" data-correct="false"> slow</label></li>
-          <li><label><input type="radio" data-correct="false"> deceitful</label></li>
-        </ul>
-      </div>
+    <div class="question">
+      <p>20. What does “perspicacious” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q20" data-correct="false"> dull</label></li>
+        <li><label><input type="radio" name="q20" data-correct="true"> insightful or shrewd</label></li>
+        <li><label><input type="radio" name="q20" data-correct="false"> slow</label></li>
+        <li><label><input type="radio" name="q20" data-correct="false"> deceitful</label></li>
+      </ul>
+    </div>
 
-      <div class="question">
-        <p><span class="q-text">What does “equivocate” mean?</span></p>
-        <ul class="answers">
-          <li><label><input type="radio" data-correct="false"> to speak clearly</label></li>
-          <li><label><input type="radio" data-correct="true"> to speak ambiguously to avoid commitment</label></li>
-          <li><label><input type="radio" data-correct="false"> to sing</label></li>
-          <li><label><input type="radio" data-correct="false"> to shout</label></li>
-        </ul>
-      </div>
-
+    <div class="question">
+      <p>21. What does “equivocate” mean?</p>
+      <ul class="answers">
+        <li><label><input type="radio" name="q21" data-correct="false"> to speak clearly</label></li>
+        <li><label><input type="radio" name="q21" data-correct="true"> to speak ambiguously to avoid commitment</label></li>
+        <li><label><input type="radio" name="q21" data-correct="false"> to sing</label></li>
+        <li><label><input type="radio" name="q21" data-correct="false"> to shout</label></li>
+      </ul>
     </div>
 
     <button type="button" id="submit-btn">Submit</button>
@@ -271,52 +266,26 @@
   <div id="result"></div>
 
   <script>
-    function shuffle(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+    // Shuffle function for each .answers list
+    function shuffleList(list) {
+      for (let i = list.children.length; i >= 0; i--) {
+        list.appendChild(list.children[Math.random() * i | 0]);
       }
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-      const container = document.getElementById('questions-container');
-      const questions = Array.from(container.children);
+      // Randomize answer order
+      document.querySelectorAll('.answers').forEach(ul => shuffleList(ul));
 
-      // Shuffle questions
-      shuffle(questions);
-
-      // Empty container and re-append in shuffled order
-      container.innerHTML = '';
-      questions.forEach((qDiv, index) => {
-        const qNum = index + 1;
-
-        // Number the question
-        const qText = qDiv.querySelector('.q-text').textContent;
-        qDiv.querySelector('p').textContent = `${qNum}. ${qText}`;
-
-        // Assign new name to each radio input
-        qDiv.querySelectorAll('input[type="radio"]').forEach(input => {
-          input.name = `q${qNum}`;
-        });
-
-        // Shuffle this question's answer options
-        const answers = Array.from(qDiv.querySelectorAll('.answers li'));
-        shuffle(answers);
-        const ul = qDiv.querySelector('.answers');
-        ul.innerHTML = '';
-        answers.forEach(li => ul.appendChild(li));
-
-        // Append back to container
-        container.appendChild(qDiv);
-      });
-
-      // Submit handler
+      // Score calculation
       document.getElementById('submit-btn').addEventListener('click', () => {
         let score = 0;
-        const total = questions.length;
+        const total = 21;
         for (let i = 1; i <= total; i++) {
           const sel = document.querySelector(`input[name=q${i}]:checked`);
-          if (sel && sel.dataset.correct === 'true') score++;
+          if (sel && sel.dataset.correct === 'true') {
+            score++;
+          }
         }
         document.getElementById('result').textContent =
           `You scored ${score} out of ${total}.`;
